@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>ISBN</key>
+		<string>123</string>
+		<key>title</key>
+		<string>Để hôm nay thành kiệt tác</string>
+		<key>author</key>
+		<string>John C. Maxwell</string>
+		<key>description</key>
+		<string>Dường như rất rõ ràng rằng một quyết định tốt sẽ giúp kiến tạo một tương lai tốt hơn, nhưng rất nhiều người không nhận thấy được mối liên quan giữa việc thiếu thành công nơi họ với những quyết định tồi mà họ đã đưa ra. Có những người đưa ra vài lựa chọn, sau đó trải qua những kinh nghiệm tiêu cực, mà vẫn băn khoăn không hiểu tại sao dường như cuộc đời của họ không thể tiến lên được. Họ không bao giờ hiểu được ra. Một số người biết những lựa chọn của họ có lẽ là không tốt cho bản thân, nhưng họ vẫn làm bằng mọi giá. Như trường hợp của người nghiện rượu tiếp tục uống rượu quá mức hay như người cứ liên tục vướng vào những mối quan hệ tồi tệ hết lần này tới lần khác.
+
+Không ai bảo là có được một quyết định tốt là đơn giản, nhưng nó là điều cần thiết để thành công. Theodore Hesburgh, cựu chủ tịch Đại học Notre Dame, khuyên:
+
+    Đừng đưa ra quyết định vì nó DỄ DÀNG;
+
+    Đừng đưa ra quyết định vì nó RẺ;
+
+    Đừng đưa ra quyết định vì nó PHỔ BIẾN;
+
+    Chỉ đưa ra quyết định vì nó ĐÚNG.</string>
+	</dict>
+	<dict>
+		<key>ISBN</key>
+		<string>124</string>
+		<key>title</key>
+		<string>Đi Tìm Niềm Tin Thời Internet</string>
+		<key>author</key>
+		<string>Alan Phan</string>
+		<key>description</key>
+		<string>Trong cuốn sách mới nhất của mình, TS. Alan Phan tiếp tục khiến người đọc đi hết từ ngạc nhiên này tới ngạc nhiên khác bằng những phát hiện sâu sắc, thú vị về những điều tưởng chừng ai cũng biết.
+
+Thời đại thông tin với sự trợ giúp đắc lực của Internet tạo ra một thế giới phẳng về kiến thức, bởi lẽ ai cũng có khả năng tiếp cận thông tin dưới nhiều góc cạnh khác nhau. Nhưng tiếp cận dựa trên cách nhìn có đúng đắn không, có đưa ra lời giải gì không cho những vấn đề thực tại hay không... thì không phải ai cũng làm được. TS. Alan Phan nằm trong số ít những người làm được điều đó.
+
+&quot;Đi tìm niềm tin thời Internet&quot; đặt ra hai mặt của một vấn đề đáng suy ngẫm: Chúng ta sống trong thời đại của Internet, thông tin đầy rẫy nhưng không phải cái gì cũng đáng tin; khi thông tin tràn ngập đủ loại, chúng ta dễ bị &quot;tung hỏa mù&quot;, lạc lối giữa cả rừng thông điệp chồng chéo, đan xen, nhập nhằng, rối rắm... Không biết phải nên tin cái gì và không tin cái gì. Cho nên, lẽ dĩ nhiên phải đi tìm niềm tin để định hướng cho nhận thức của mình.</string>
+	</dict>
+</array>
+</plist>

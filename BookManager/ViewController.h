@@ -7,7 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "DetailViewController.h"
+#import "AddViewController.h"
+#import "NavViewController.h"
+#import "Book.h"
+@interface ViewController : UITableViewController
 
-@interface ViewController : UIViewController
+@property (strong, nonatomic) DetailViewController *detailViewController;
+@property (strong, nonatomic) AddViewController *addViewController;
+@property (strong, nonatomic) Book *book;
 
 @end

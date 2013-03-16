@@ -7,6 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "NavViewController.h"
+#import "ViewController.h"
 
 @class ViewController;
 
@@ -15,5 +17,7 @@
 @property (strong, nonatomic) UIWindow *window;
 
 @property (strong, nonatomic) ViewController *viewController;
+
+@property (strong, nonatomic) NavViewController *navController;
 
 @end

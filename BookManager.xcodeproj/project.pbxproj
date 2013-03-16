@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E003D3DD16F1BD5500049C2D /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E003D3DC16F1BD5500049C2D /* DetailViewController.xib */; };
+		E003D3E216F1C5EB00049C2D /* AddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E003D3E016F1C5EB00049C2D /* AddViewController.m */; };
+		E003D3E316F1C5EB00049C2D /* AddViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E003D3E116F1C5EB00049C2D /* AddViewController.xib */; };
 		E0C5327B16EB2F87007E762C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0C5327A16EB2F87007E762C /* UIKit.framework */; };
 		E0C5327D16EB2F87007E762C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0C5327C16EB2F87007E762C /* Foundation.framework */; };
 		E0C5327F16EB2F87007E762C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0C5327E16EB2F87007E762C /* CoreGraphics.framework */; };
@@ -18,9 +21,20 @@
 		E0C5329116EB2F87007E762C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E0C5329016EB2F87007E762C /* Default-568h@2x.png */; };
 		E0C5329416EB2F87007E762C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0C5329316EB2F87007E762C /* ViewController.m */; };
 		E0C5329716EB2F87007E762C /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0C5329516EB2F87007E762C /* ViewController.xib */; };
+		E0C5329E16EB3027007E762C /* BookList.plist in Resources */ = {isa = PBXBuildFile; fileRef = E0C5329D16EB3027007E762C /* BookList.plist */; };
+		E0C532A216EB32E6007E762C /* Book.m in Sources */ = {isa = PBXBuildFile; fileRef = E0C532A116EB32E6007E762C /* Book.m */; };
+		E0D2D4F516EB760500966F3B /* book.png in Resources */ = {isa = PBXBuildFile; fileRef = E0D2D4F416EB760500966F3B /* book.png */; };
+		E0D2D4FB16EB774500966F3B /* 123_book.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E0D2D4F916EB774500966F3B /* 123_book.jpg */; };
+		E0D2D4FC16EB774500966F3B /* 124_book.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E0D2D4FA16EB774500966F3B /* 124_book.jpg */; };
+		E0D2D50016EB793B00966F3B /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0D2D4FE16EB793B00966F3B /* DetailViewController.m */; };
+		E0D2D50516EB7FE500966F3B /* NavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0D2D50416EB7FE500966F3B /* NavViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E003D3DC16F1BD5500049C2D /* DetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
+		E003D3DF16F1C5EB00049C2D /* AddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddViewController.h; sourceTree = "<group>"; };
+		E003D3E016F1C5EB00049C2D /* AddViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddViewController.m; sourceTree = "<group>"; };
+		E003D3E116F1C5EB00049C2D /* AddViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddViewController.xib; sourceTree = "<group>"; };
 		E0C5327716EB2F87007E762C /* BookManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0C5327A16EB2F87007E762C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		E0C5327C16EB2F87007E762C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -37,6 +51,16 @@
 		E0C5329216EB2F87007E762C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		E0C5329316EB2F87007E762C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		E0C5329616EB2F87007E762C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		E0C5329D16EB3027007E762C /* BookList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = BookList.plist; path = ../BookList.plist; sourceTree = "<group>"; };
+		E0C532A016EB32E6007E762C /* Book.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Book.h; sourceTree = "<group>"; };
+		E0C532A116EB32E6007E762C /* Book.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Book.m; sourceTree = "<group>"; };
+		E0D2D4F416EB760500966F3B /* book.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = book.png; sourceTree = "<group>"; };
+		E0D2D4F916EB774500966F3B /* 123_book.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 123_book.jpg; sourceTree = "<group>"; };
+		E0D2D4FA16EB774500966F3B /* 124_book.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 124_book.jpg; sourceTree = "<group>"; };
+		E0D2D4FD16EB793B00966F3B /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		E0D2D4FE16EB793B00966F3B /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		E0D2D50316EB7FE400966F3B /* NavViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavViewController.h; sourceTree = "<group>"; };
+		E0D2D50416EB7FE500966F3B /* NavViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +77,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E003D3DE16F1C57A00049C2D /* AddView */ = {
+			isa = PBXGroup;
+			children = (
+				E003D3DF16F1C5EB00049C2D /* AddViewController.h */,
+				E003D3E016F1C5EB00049C2D /* AddViewController.m */,
+				E003D3E116F1C5EB00049C2D /* AddViewController.xib */,
+			);
+			name = AddView;
+			sourceTree = "<group>";
+		};
 		E0C5326E16EB2F87007E762C = {
 			isa = PBXGroup;
 			children = (
@@ -83,12 +117,16 @@
 		E0C5328016EB2F87007E762C /* BookManager */ = {
 			isa = PBXGroup;
 			children = (
+				E0D2D4F716EB76C000966F3B /* ViewStore */,
+				E003D3DE16F1C57A00049C2D /* AddView */,
+				E0D2D50216EB795200966F3B /* DetailView */,
+				E0D2D4F816EB76D800966F3B /* Resource */,
+				E0C5329F16EB32AD007E762C /* Model */,
 				E0C5328916EB2F87007E762C /* AppDelegate.h */,
 				E0C5328A16EB2F87007E762C /* AppDelegate.m */,
-				E0C5329216EB2F87007E762C /* ViewController.h */,
-				E0C5329316EB2F87007E762C /* ViewController.m */,
-				E0C5329516EB2F87007E762C /* ViewController.xib */,
 				E0C5328116EB2F87007E762C /* Supporting Files */,
+				E0D2D50316EB7FE400966F3B /* NavViewController.h */,
+				E0D2D50416EB7FE500966F3B /* NavViewController.m */,
 			);
 			path = BookManager;
 			sourceTree = "<group>";
@@ -105,6 +143,46 @@
 				E0C5329016EB2F87007E762C /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E0C5329F16EB32AD007E762C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E0C532A016EB32E6007E762C /* Book.h */,
+				E0C532A116EB32E6007E762C /* Book.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		E0D2D4F716EB76C000966F3B /* ViewStore */ = {
+			isa = PBXGroup;
+			children = (
+				E0C5329216EB2F87007E762C /* ViewController.h */,
+				E0C5329316EB2F87007E762C /* ViewController.m */,
+				E0C5329516EB2F87007E762C /* ViewController.xib */,
+			);
+			name = ViewStore;
+			sourceTree = "<group>";
+		};
+		E0D2D4F816EB76D800966F3B /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				E0D2D4F916EB774500966F3B /* 123_book.jpg */,
+				E0D2D4FA16EB774500966F3B /* 124_book.jpg */,
+				E0C5329D16EB3027007E762C /* BookList.plist */,
+				E0D2D4F416EB760500966F3B /* book.png */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+		E0D2D50216EB795200966F3B /* DetailView */ = {
+			isa = PBXGroup;
+			children = (
+				E0D2D4FD16EB793B00966F3B /* DetailViewController.h */,
+				E0D2D4FE16EB793B00966F3B /* DetailViewController.m */,
+				E003D3DC16F1BD5500049C2D /* DetailViewController.xib */,
+			);
+			name = DetailView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,6 +241,12 @@
 				E0C5328F16EB2F87007E762C /* Default@2x.png in Resources */,
 				E0C5329116EB2F87007E762C /* Default-568h@2x.png in Resources */,
 				E0C5329716EB2F87007E762C /* ViewController.xib in Resources */,
+				E0C5329E16EB3027007E762C /* BookList.plist in Resources */,
+				E0D2D4F516EB760500966F3B /* book.png in Resources */,
+				E0D2D4FB16EB774500966F3B /* 123_book.jpg in Resources */,
+				E0D2D4FC16EB774500966F3B /* 124_book.jpg in Resources */,
+				E003D3DD16F1BD5500049C2D /* DetailViewController.xib in Resources */,
+				E003D3E316F1C5EB00049C2D /* AddViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,6 +260,10 @@
 				E0C5328716EB2F87007E762C /* main.m in Sources */,
 				E0C5328B16EB2F87007E762C /* AppDelegate.m in Sources */,
 				E0C5329416EB2F87007E762C /* ViewController.m in Sources */,
+				E0C532A216EB32E6007E762C /* Book.m in Sources */,
+				E0D2D50016EB793B00966F3B /* DetailViewController.m in Sources */,
+				E0D2D50516EB7FE500966F3B /* NavViewController.m in Sources */,
+				E003D3E216F1C5EB00049C2D /* AddViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,6 +386,7 @@
 				E0C5329C16EB2F87007E762C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
